@@ -1,0 +1,19 @@
+{
+  "name": "baby-ferber-timer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "workspaces": [
+    "packages/ferber-timer-cdk",
+    "packages/ferber-timer-website"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-website": "npm run build --workspace ferber-timer-website && npm run cdk deploy"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
