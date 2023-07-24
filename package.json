@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy-website": "npm run build --workspace ferber-timer-website && npm run cdk deploy"
+    "deploy": "npm run build --workspace packages/ferber-timer-website && cd packages/ferber-timer-cdk cdk deploy"
   },
   "author": "",
   "license": "MIT",
