@@ -12,10 +12,8 @@ This custom react app is designed for parents and caregivers to facilitate sleep
 - Customizable Sleep Training Plan
 - Easy Timer Controls
 - Seconds or Minutes Display
-- Comforting Check-in Intervals
 - Insightful Training Statistics
 - Toast Encouraging Messages
-- Training Statistics
 - Ferber Method
 
 ## Demo
