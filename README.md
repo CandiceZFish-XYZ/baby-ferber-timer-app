@@ -1,4 +1,4 @@
-# baby-ferber-timer-app
+# [Ferber Timer](https://ferber-timer.xzhou.dev) - Sleep Training Timer App
 
 ## Introduction
 
@@ -35,10 +35,11 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- The React community for their continuous efforts in building and improving the React library, enabling developers to create powerful web applications.
-- The fantastic Chakra UI components.
-- Amazon Web Services (AWS) for providing the infrastructure and services that support the deployment and hosting of the Ferber Timer web app, making it accessible to users worldwide.
-- The Ferber method for sleep training, a widely recognized approach for helping babies learn to sleep independently.
+- The [React](https://react.dev) community for their continuous efforts in building and improving the React library, enabling developers to create powerful web applications.
+- The fantastic [Chakra UI](https://chakra-ui.com) components.
+- [Amazon Web Services (AWS)](https://aws.amazon.com) for providing the infrastructure and services that support the deployment and hosting of the Ferber Timer web app, making it accessible to users worldwide.
+- [AWS CDK (Cloud Development Kit)](https://aws.amazon.com/cdk/) for simplifying the development, deployment, and management of the application's AWS infrastructure.
+- The [Ferber method](https://en.wikipedia.org/wiki/Ferber_method) for sleep training, a widely recognized approach for helping babies learn to sleep independently.
 
 ---
 
