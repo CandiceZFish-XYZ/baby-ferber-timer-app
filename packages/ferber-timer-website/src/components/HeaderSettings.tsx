@@ -22,6 +22,7 @@ import {
   InputRightAddon,
   ModalFooter,
   useDisclosure,
+  Center,
 } from "@chakra-ui/react";
 import { FaCog } from "@react-icons/all-files/fa/FaCog";
 import { FaHeart } from "@react-icons/all-files/fa/FaHeart";
@@ -33,6 +34,7 @@ import {
   State,
 } from "../constants/constants";
 import { HeaderSettingsProps } from "../types/types";
+import Github from "./Github";
 
 export default function HeaderSettings(props: HeaderSettingsProps) {
   const {
@@ -100,24 +102,29 @@ export default function HeaderSettings(props: HeaderSettingsProps) {
       <Flex w={[300, 300, 768]} pb={6}>
         <Heading as="h1">Ferber Timer Day {props.ferberDayIndex + 1}</Heading>
         <Spacer />
-        <Show above="md">
-          <Button
-            rightIcon={<FaCog />}
-            colorScheme="blue"
-            onClick={handleSettingFormOpen}
-          >
-            Show Plan
-          </Button>
-        </Show>
-        <Show below="md">
-          <Button
-            rightIcon={<FaCog />}
-            colorScheme="blue"
-            pr={6}
-            alignSelf="center"
-            onClick={handleSettingFormOpen}
-          ></Button>
-        </Show>
+        <Center>
+          <Show above="md">
+            <Button
+              rightIcon={<FaCog />}
+              colorScheme="blue"
+              onClick={handleSettingFormOpen}
+            >
+              Show Plan
+            </Button>
+          </Show>
+          <Show below="md">
+            <Button
+              rightIcon={<FaCog />}
+              colorScheme="blue"
+              pr={6}
+              alignSelf="center"
+              onClick={handleSettingFormOpen}
+            ></Button>
+          </Show>
+        </Center>
+        <Center pl={2}>
+          <Github />
+        </Center>
       </Flex>
       <Modal
         isOpen={isSettingOpen}
